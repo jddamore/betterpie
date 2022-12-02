@@ -1,0 +1,23 @@
+{
+  "bin": "app.js",
+  "name": "auto_pilot",
+  "version": "0.0.1",
+  "description": "PIE Foundation website",
+  "main": "app.js",
+  "author": {
+    "name": "Progress for Informatics & Energy Foundation, Inc.",
+    "email": "johnd@moreinformatics.com"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint . -c .eslintrc.js --ext .js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jddamore/betterpie"
+  },
+  "snyk": true
+}
